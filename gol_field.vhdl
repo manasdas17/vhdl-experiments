@@ -1,4 +1,3 @@
-
 package GOL is
   constant width: integer := 4;
   constant height: integer := 4;
@@ -187,6 +186,6 @@ outer:
                lr => 0,
                alive => curr_state(i, j));
             end generate lr;
-        end generate inner;
-    end generate outer;
+      end generate inner;
+end generate outer;
 end arch;
