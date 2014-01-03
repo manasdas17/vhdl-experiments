@@ -1,4 +1,3 @@
-
 entity gol_cell is
   generic (
     start_alive : integer range 0 to 1 := 0;
@@ -16,10 +15,10 @@ begin
     variable neighbors: integer range 0 to 8;
     begin
       neighbors := ul + upper + ur + left + right + ll + lower + lr;
-      if (neighbors = 3) or (alive = 1 and (neighbors) = 2) then
+      if (neighbors = 3) or (alive = 1 and neighbors = 2) then
         alive <= 1;
       else
         alive <= 0;
       end if;
-    end process;
+  end process;
 end arch;
