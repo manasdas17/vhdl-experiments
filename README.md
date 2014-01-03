@@ -1,6 +1,6 @@
 VHDL Experiments
 ================
-Experiments in VHDL created a while back. Built with GHDL. [Tutorials](http://www.youtube.com/user/edybond2) courtesy of Altera via edybond2. No longer have the test cases.
+Experiments in VHDL created a while back. Built with GHDL. <a href="http://www.youtube.com/user/edybond2" target="_blank">Tutorials</a> courtesy of Altera via edybond2. No longer have the test cases.
 
 To Install GHDL on a Debian-based System
 ----------------------------------------
