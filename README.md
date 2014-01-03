@@ -4,7 +4,7 @@ Experiments in VHDL created a while back. Built with GHDL. <a href="http://www.y
 
 To Install GHDL on a Debian-based System
 ----------------------------------------
-1. add package archives - sudo add-apt-repository ppa:pgavin/ghdl
+1. add package archives (package for precise or later) - sudo add-apt-repository ppa:pgavin/ghdl
 2. update - sudo apt-get update
 3. install - sudo apt-get install ghdl
 
